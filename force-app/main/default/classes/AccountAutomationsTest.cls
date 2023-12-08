@@ -33,7 +33,7 @@ private class AccountAutomationsTest {
         Account acc = new Account(Name = 'My Test Account');
         insert acc;
         acc = AccountAutomations.setDefaultPhone(acc);
-        System.assertEquals('9999999', acc.Phone, 'Default phone number is 9999999');
+        System.assertEquals('688456789', acc.Phone, 'Default phone number is 688456789');
     }
 
     @isTest static void testDefaultURL(){
